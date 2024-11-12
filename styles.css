@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #f6f656;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    border-radius: 5px;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+    color: cornflowerblue;
+    border-bottom: 2px solid cornflowerblue;
+    padding-bottom: 5px;
+}
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+ul {
+    padding-left: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #666;
+}
+strong {
+    color: #11802c;
+}
+
+/* General image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styling for images within sections */
+section img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+}
+
+/* Hover effect for images */
+img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive image sizing */
+@media (max-width: 600px) {
+    section img {
+        max-height: 300px;
+    }
+}
+
+a {
+    color: #c51012;
+  }
+
+a:hover {
+    color: #7a0737;
+}
